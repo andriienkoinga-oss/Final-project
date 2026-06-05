@@ -1,0 +1,252 @@
+:root{
+    --main-color: rgba(33, 33, 33, 1);
+    --second-color: rgba(112, 112, 112, 1); 
+    --view-clor: rgba(0, 0, 0, 1);
+    --main-color: rgba(33, 33, 33, 1);
+    --signup-color: rgba(0, 121, 138, 1);        
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, middle;
+}
+.container{
+    width: 1512px;
+    height: 4412px;
+}
+nav{
+    display: flex;
+    position: relative;
+    max-width: 1512px;
+    width: 100%;
+    max-height: 64px;
+    height: 100%;
+}
+.navigation{
+    display: flex;
+    gap: 40px;
+    position: relative;
+}
+.logo{
+width: 94px;
+height: 34px;
+
+    margin-left: 24px;
+    margin-top: 15px;
+}
+.inputs{
+    display: flex;
+    margin-top: 11px;
+    
+}
+.search_container{
+    position: relative;
+}
+.search{
+    width: 294px;
+    height: 42px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    padding-left: 37px;
+    border-radius: 8px 0 0 8px;
+}
+.vanue{
+    width: 294px;
+    height: 42px;
+    padding-top: 13px;
+    padding-left: 17px;
+    border: 1px solid rgba(217, 217, 217, 1);
+
+    border-radius: 0 8px 8px 0;
+}
+.search_button{
+    position: absolute;
+    right: 0;
+    top: 11px;
+    border: 0;
+    width: 42px;
+    height: 42px; 
+    padding: 11px;
+    background-color: rgba(246, 88, 88, 1);
+    border-radius: 0 8px 8px 0;
+}
+.search_button img{
+    width: 20px;
+    height: auto;
+    
+
+}
+.search_img{
+    width: 16.27px;
+    height: 16.27px;
+    position: absolute;
+    top: 12.75px;
+    left: 12.75px;
+        border: 0;
+}
+
+.user-setting{
+    display: flex;
+    gap: 22px;
+    padding-left: 476.6px;
+    position: absolute;
+    top: 0;
+    right: 50px;
+
+}
+.language{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    gap: 5px;
+    border: 0;
+    background-color: white;
+    color: rgba(33, 33, 33, 1);
+}
+
+.log-in{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    border: 0;
+    background-color: white;
+    color: rgba(33, 33, 33, 1);
+}
+.sign-up{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background-color: rgba(0, 121, 138, 1);
+    color: white;
+    width: 83px;
+    height: 36px;
+    border-radius: 8px;
+    margin-top: 14px;
+}
+.platform{
+    width: 1196px;
+    height: 461px;
+    display: flex;
+    gap: 54.47px;
+    padding-left: 158px;
+    padding-top: 71px;
+}
+.platform_info{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 600px;
+}
+.title_info{
+    font-weight: 700;
+    font-size: 42px;
+    text-align: left;
+}
+.text_info{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+}
+.platform_img{
+    margin-left: 54px;
+    width: 379px;
+    height: auto;
+}
+.btn_info{
+    width: 125px;
+    height: 40px;
+    background-color: rgba(0, 121, 138, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 0;
+    border-radius: 8px;
+}
+.events_near{
+    margin-top: 24px;
+    width: 1196px;
+    height: 1441px;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 158px;
+}
+.events_title{
+    display: flex;
+}
+.edit_place{
+    display: flex;
+    flex-direction: row;
+    width: 239.4px;
+    height: 44px;
+    background-color: rgba(151, 202, 209, 0.12);
+    border-radius: 8px;
+    position: relative;
+    margin-left: 20px;
+}
+.pencil{
+    width: 15px;
+    height: 16.6px;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+.title_events{
+    font-weight: 600;
+    font-size: 28px;
+    text-align: left;
+    padding-top: 5px;
+}
+.place_events{
+    font-weight: 600;
+    font-size:  20px;
+    color: rgba(0, 121, 138, 1);
+    padding-left: 12px;
+    padding-top: 12px;
+}
+.link_all{
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(0, 121, 138, 1);
+    position: absolute;
+    right: 0;
+}
+
+.poster{
+    padding-top: 28px;
+    width: 272px;
+    height: 153px;
+}
+.img_poster{
+    width: 272px;
+    height: auto;
+}
+.info_poster{
+    padding-top: 12px;
+}
+.poster_title{
+    width: 256px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.distance{
+    width: 256px;
+    height: 40px;
+    padding-top: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(112, 112, 112, 1);
+}
+.day{
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 8px;
+    text-transform: uppercase;
+}
+.day img{
+    width: 15px;
+    height: 14.17px;
+    color: rgba(112, 112, 112, 1);
+    margin-right: 8.5px;
+}
