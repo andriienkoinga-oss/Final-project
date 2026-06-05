@@ -212,11 +212,18 @@ height: 34px;
     position: absolute;
     right: 0;
 }
-
+.events_near{
+    display: flex;
+}
+.posters_events{
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+}
 .poster{
     padding-top: 28px;
     width: 272px;
-    height: 153px;
+    height: 399px;
 }
 .img_poster{
     width: 272px;
@@ -230,23 +237,52 @@ height: 34px;
     font-weight: 600;
     font-size: 20px;
 }
-.distance{
+.thema{
     width: 256px;
     height: 40px;
     padding-top: 8px;
     font-weight: 500;
     font-size: 14px;
     color: rgba(112, 112, 112, 1);
+    display: flex;
+    align-items: center;
 }
 .day{
+    display: flex;
+    height: 20px;
     font-weight: 400;
     font-size: 14px;
     padding-top: 8px;
     text-transform: uppercase;
 }
 .day img{
-    width: 15px;
-    height: 14.17px;
+    width: 20px;
+    height: 20px;
     color: rgba(112, 112, 112, 1);
-    margin-right: 8.5px;
+    margin-right: 6px;
+}
+.day p{
+    height: 20px;
+    padding-top: 2px;
+}
+.add_info{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    gap: 15.8px;
+    align-items: center;
+}
+.register img{
+    width: 20px;
+    height: 20px;
+    margin-right: 3.67px;
+}
+.register, .type{
+    display: flex;
+}
+.type img{
+    width: 20px;
+    height: 20px;
+    margin-right: 3.67px;
 }
