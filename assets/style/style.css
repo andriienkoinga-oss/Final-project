@@ -1,10 +1,4 @@
-:root{
-    --main-color: rgba(33, 33, 33, 1);
-    --second-color: rgba(112, 112, 112, 1); 
-    --view-clor: rgba(0, 0, 0, 1);
-    --main-color: rgba(33, 33, 33, 1);
-    --signup-color: rgba(0, 121, 138, 1);        
-}
+
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +8,7 @@
 .container{
     width: 1512px;
     height: 4412px;
+    position: relative;
 }
 nav{
     display: flex;
@@ -467,4 +462,107 @@ height: 34px;
     font-weight: 400;
     padding-top: 16px;
     color: rgba(0, 121, 138, 1);
+}
+
+
+footer{
+    background-color: rgb(33, 33, 33);
+    width: 1512px;
+    height: 559px;
+    position: absolute;
+    bottom: 0;
+}
+.get_started{
+    display: flex;
+    width: 1120px;
+    height: 69px;
+    margin-left: 196px;
+    margin-top: 24px;
+    gap: 15.8px;
+    border-bottom: 1px solid rgba(112, 112, 112, 1)
+}
+.get_started h4{
+    color: rgb(246, 247, 248);
+    font-size: 16px;
+    font-weight: 600;
+    width: 249px;
+    padding-top: 10px;
+}
+.get_started button{
+    color: rgba(255, 255, 255, 1);
+    background: none ;
+    width: 119px;
+    height: 44px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.page_links{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 196px;
+}
+.page_link{
+    width: 373.33px;
+    height: 224px;
+
+}
+.page_link h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(246, 247, 248, 1);
+}
+.page_link p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(197, 196, 196, 1);
+    padding-top: 7px;
+}
+
+.follow{
+    width: 1120px;
+    height: 90px;
+    margin: 24px 196px;
+    display: flex;
+    position: relative;
+}
+.follow_media{
+    width: 278px;
+}
+.follow_media h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(246, 247, 248, 1);
+}
+.icons{
+    display: flex;
+    margin-top: 12px;
+    gap: 32px;
+}
+.icons img{
+    width: 30px;
+    height: 30px;
+}
+.store{
+    display: flex;
+    position: absolute;
+    right: 0;
+    gap: 12px;
+}
+.store img{
+    width: 140px;
+    height: 40px;
+}
+.page_info{
+    width: 1120px;
+    height: 28px;
+    display: flex;
+    margin-left: 196px;
+    gap: 24px;
+    color: rgba(197, 196, 196, 1);
+    font-size: 14px;
+    font-weight: 400;
 }
