@@ -1,0 +1,393 @@
+@media(max-width: 393px){
+    .container{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+        height: 38px;
+    }
+    .logo{
+        width: 94.34px;
+        height: 34px;
+        margin-top: 4px;
+        margin-left: 24px;
+    }
+    .inputs{
+        position: absolute;
+        left: 20px;
+        top: 53px
+        
+    }
+    .search{
+        width: 342px;
+        height: 42px;
+    }
+    .search_button{
+        width: 42px;
+        height: 42px;
+    }
+    .vanue{
+        display: none;
+    }
+    .user-setting{
+        position: absolute;
+        top: 0;
+        right: 7px;
+        gap: 19px;
+    }
+    .language{
+        font-size: 12px;
+        margin-top: 12.83px;
+    }
+    .log-in{
+        font-size: 12px;
+        white-space: nowrap;
+        margin-top: 12.83px;
+    }
+    .sign-up{
+        font-size: 12px;
+        width: 71px;
+        height: 30.76px;
+        margin-top: 10px;
+    }
+    .platform{
+        width: 100%;
+        padding-left: 21px;
+        flex-direction: column;
+    }
+    .platform_info{
+        gap: 20px;
+        max-width: 352.28px;
+        width: 100%;
+        padding-top: 30px;
+    }
+    .title_info{
+        font-size: 25px;
+    }
+    .text_info{
+        padding-top: 20px;
+        font-size: 12px;
+        font-weight: 400;
+        max-width: 350px;
+        width: 100%;
+        line-height: 2;
+    }
+    .btn_info{
+        display: none;
+    }
+    .platform_img img{
+        max-width: 250px;
+        width: 100%;
+        min-height: 157.6px;
+        height: 100%;
+        margin-right: 89px;
+    }
+    .events_near{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-left: 15px;
+        min-height: 350px;
+
+    }
+    .title_events{
+        font-size: 20px;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .edit_place{
+        max-width: 164px;
+        width: 100%;
+        min-height: 30px;
+        height: auto;
+        border-radius: 5.48px;
+        position: relative;
+        margin-left: 6px;
+    }
+    .place_events{
+        font-weight: 600;
+        font-size:  14px;
+        padding-top: 8px;
+        
+    }
+    .pencil{
+        max-width: 10px;
+        width: 100%;
+        min-height: 11.4px;
+        height: auto; 
+        bottom: 8px;
+        right: 9px;
+    }
+    .link_all{
+        display: none;
+    }
+    .posters_events{
+        width: 370px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+    }
+    .poster{
+        display: flex;
+        flex-direction: row;
+        height: 35px;
+        position: relative;
+    }
+    .poster img{
+        width: 97.51px;
+        height: 54.99px;
+        margin-left: 15px;
+
+    }
+    .info_poster{
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        left: 120px;
+        
+    }
+    .info_poster h5{
+        font-size: 9.81px;
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 15px;
+        white-space: wrap;
+        width: 370px;
+    }
+    .day img{
+        display: none;
+    }
+    .day p{
+        color: rgba(124, 111, 80, 1);
+        font-size: 8.58px;
+        font-weight: 500;
+        position: absolute;
+        top: 0px;
+        white-space: nowrap;
+    }
+    .thema{
+        font-size: 8.58px;
+        font-weight: 400;
+        color: rgba(112, 112, 112, 1);
+        position: absolute;
+        top: 24px;
+        white-space: nowrap;
+    }
+    .register{
+        display: none;
+    }
+    .type{
+        display: none;
+    }
+    .line{
+        border: 0.61px solid rgba(217, 217, 217, 1);
+        width: 350px;
+        position: absolute;
+        top: 15px;
+        left: 10px;
+    }
+    .hidden{
+        display: none;
+    }
+    .signup_container{
+        width: 100%;
+        height: 356px;
+        margin-top: 100px;
+        margin-left: -15px;
+        flex-direction: column;
+        position: relative;
+    }
+    .join_info{
+        margin: 0;
+        
+    }
+    .join_info p{
+        position: absolute;
+        top: 200px;
+        left: 15px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 2;
+    }
+    .join_info button{
+        position: absolute;
+        top: 300px;
+        left: 100px;
+        width: 192px;
+        height: 40px;
+
+    }
+    .join_info h6{
+        font-size: 20px;
+        white-space: nowrap;
+        margin-left: 15px;
+        margin-top: 16px;
+    }
+    .join_img{
+        position: absolute;
+        top:40px;
+        left: 75px;
+    }
+    .join_img img{
+        width: 238px;
+        height: 136.8px;
+    }
+    .categories_items{
+        gap: 23px;
+        margin-left: 40px;
+    }
+    .p_events{
+        margin-left: 10px;
+        font-size: 12px;
+        font-weight: 400;
+        width: 350px;
+    }
+    .city img{
+        max-width: 153.15px;
+        width: 100%;
+        min-height: 153.15px;
+        height: 100%;
+    }
+    .city h5{
+        font-size: 14.93px;
+        padding-top: 17.93px;
+        
+    }
+    .cities_items{
+        gap: 18px;
+        margin-left: 20px;
+    }
+    .how_box{
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 18px;
+    }
+    .how_info{
+        max-width: 360.89px;
+        width: 100%;
+        min-height: 112px;
+        height: auto;
+        background-color: rgba(151, 202, 209, 0.08); 
+    }
+    .how_info img{
+        width: 25.51px;  
+        height: 25.51px;
+        margin-top: 19.91px;
+        margin-left: 14.93px;
+    }
+    .how_info_text{
+        margin-top: 19.91px;
+        margin-left: 14.93px;
+    }
+    .how_info_text h5{
+        font-size: 12px;
+    }
+    .how_info_text p{
+        padding-top: 9.96px;
+        max-width: 225.23px;
+        width: 100%;
+        font-size: 9.96px;
+        font-weight: 400;
+    }
+    .how_info_text h6{
+        padding-top: 9.96px;
+        font-size: 10px;
+    }
+    .friendships{
+        padding-top: 17px;
+    }
+    .friendships_box{
+        gap: 0px;
+    }
+    .friendship_item{
+        max-width: 360px;
+        width: 100%;
+    }
+    .friendship_item img{
+        max-width: 360px;
+        width: 100%;
+        min-height: 183.5px;
+        height: auto;
+    }
+    .friendship_item h5{
+        font-size: 16px;
+    }
+    .friendship_item p{
+        font-size: 12px;
+    }
+    .friendship_item h6{
+        font-size: 12px;
+        padding-top: 15.33px;
+        padding-bottom: 32px;
+    }
+
+
+    .footer_1page{
+        width: 100%;
+        min-height: 393px;
+        margin-top: 120px;
+    }
+    .get_started{
+        display: flex;
+        width: 366px;
+        height: 69px;
+        margin-left: 18px;
+        margin-top: 15px;
+        gap: 2;
+        border-bottom: 1px solid rgba(112, 112, 112, 1)
+    }
+    .get_started h4{
+        font-size: 14px;
+        width: 247px;
+        padding-top: 25px;
+    }   
+    .get_started button{
+        margin-top: 13px;
+    }
+    .page_links{
+        margin-top: 34px;
+        margin-left: 14px;
+    }
+    .page_link{
+        max-width: 377px;
+        width: 100%;
+        min-height: 224px;
+        height: auto;
+    }
+        .page_link h4{
+        font-size: 14px;
+    }
+    .page_link p{
+        font-size: 12px;
+    }
+    .follow{
+        max-width: 336px;
+        width: 100%;
+        margin: 16px 18px;
+        flex-direction: column ;
+    }
+    .store{
+        display: none;
+    }
+    .icons img{
+        max-width: 25px;
+        width: 100%;
+        min-height: 25px;
+        height: auto;
+    }
+    .page_info{
+        margin-left: 18px;
+    }
+    .footer_2page{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(33, 33, 33);
+    width: 100%;
+    max-height: 559px;
+    padding-bottom: 50px;
+}
+}

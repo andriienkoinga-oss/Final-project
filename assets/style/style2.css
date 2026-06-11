@@ -1,77 +1,98 @@
 .page2{
     display: flex;
 }
+
 .events_2page{
     display: flex;
     flex-direction: column;
-    width: 604px;
+    max-width: 604px;
+    width: 100%;
     margin-left: 158px;
     margin-top: 77px;
 }
+
 .events_2page h3{
     font-size: 28px;
     font-weight: 600;
 }
+
 .p_cont_btm{
     font-size: 20px;
     font-weight: 500;
     color: rgba(0, 121, 138, 1);
     border-bottom: 4px solid;
-    width: 59px;
+    max-width: 59px;
+    width: 100%;
     padding-top: 16px;
 }
+
 .filter{
     display: flex;
     margin-top: 12px;
     gap: 17.44px;
 }
+
 .filter button{
-    width: 117.56px;
-    height: 46px;
+    max-width: 117.56px;
+    width: 100%;
+    min-height: 46px;
+    height: 100%;
     border: 0;
     border-radius: 40px;
     background-color: rgba(246, 247, 248, 1);
 }
+
 .events_list{
-    height: 1050px;
+    min-height: 1050px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     margin-top: 56px;
 }
+
 .event_box{
-    width: 604px;
+    max-width: 604px;
+    width: 100%;
     min-height: 161px;
+    height: 100%;
     display: flex;
     border-top: 1px solid rgba(217, 217, 217, 1);
 }
+
 .event_box img{
-    width: 159px;
-    height: 89.72px;
+width: 159px;
+  height: 89.72px;
+
     margin-top: 20px;
     border-radius: 8px;
 }
+
 .box_text{
     margin-left: 12px;
     margin-top: 20px;
     position: relative;
 }
+
 .box_text h6{
     font-size: 14px;
     font-weight: 500;
     color: rgba(124, 111, 80, 1);
-
 }
+
 .box_text h5{
     font-size: 14px;
     font-weight: 500;
     padding-top: 4px;
-    width: 432.89px;
+    max-width: 432.89px;
+    width: 100%;
 }
+
 .category{
     font-size: 14px;
     font-weight: 500;
     color: rgba(112, 112, 112, 1);
 }
+
 .attendees{
     font-size: 14px;
     font-weight: 500;
@@ -79,27 +100,36 @@
     position: absolute;
     bottom: 13px;
 }
+
 .map{
     margin-left: 267px;
     margin-top: 81px;
 }
+
 .map h6{
     font-size: 12px;
     font-weight: 500;
 }
+
 .map h5{
     font-size: 20px;
     font-weight: 700;
 }
+
 .img_map{
     position: relative;
-    width: 350px;
-    height: 285px;
+width: 350px;
+
+height: 285px;
+
     margin-top: 14px;
 }
+
 .img_map button{
-    width: 172.41px;
-    height:40.58px;
+width: 172.41px;
+
+height: 40.58px;
+
     border: 2px solid rgba(0, 121, 138, 1);
     border-radius: 8px;
     background-color: white;
@@ -114,9 +144,12 @@
     justify-content: center;
     align-items: center;
 }
+
 .img_on_button{
-    width: 18px;
-    height: 18px;
+width: 18px;
+
+height: 18px;
+
     margin-left: 16px;
     text-align: center;
 }
