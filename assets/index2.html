@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/style2.css">
-    <link rel="stylesheet" href="./style/adapt_1page.css">
+
+    <link rel="stylesheet" href="./style/adapt_2page.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
@@ -33,11 +34,50 @@
                     <h3>Events near New York, NY</h3>
                     <h5 class="p_cont_btm">Events</h5>
                     <div class="filter">
-                        <button>Any type <img src="./img/v.png" alt=""></button>
-                        <button>Any distance <img src="./img/v.png" alt=""></button>
-                        <button>Any category <img src="./img/v.png" alt=""></button>
-                        <button>Any date <img src="./img/v.png" alt=""></button>
+
+                        <div class="filter-select one">
+                            <select >
+                                <option value="">Any type</option>
+                                <option value="offline">Offline</option>
+                                <option value="online">Online</option>
+                            </select><img src="./img/v.png" alt="">
+                            
+                        </div>
+                        <div class="filter-select two">
+                            <select >
+                                <option value="">Any distance</option>
+                                <option value="5">5km</option>
+                                <option value="25">25km</option>
+                                <option value="10">10km</option>
+                                <option value="100">100km</option>
+                                <option value="74">74km</option>
+                                <option value="15">15km</option>
+                            </select><img src="./img/v.png" alt="">
+                           
+                        </div>
+
+                        <div class="filter-select three">
+                            <select >
+                                <option value="">Any category</option>
+                                <option value="technology">Technology</option>
+                                <option value="business">Business</option>
+                                <option value="hobbies">Hobbies and Passions</option>
+                                <option value="social">Social Activities</option>
+                            </select><img src="./img/v.png" alt="">
+                            
+                        </div>
+                        <div class="filter-select four">
+                            <select >
+                                <option value="">Any date</option>
+                                <option value="23">Sat Mar 23 2024</option>
+                                <option value="16">Sat Mar 16 2024</option>
+                                <option value="13">Wed Mar 13 2024</option>
+                                <option value="14">Thu Mar 14 2024</option>
+                            </select><img src="./img/v.png" alt="">
+                            
+                        </div>
                     </div>
+
                     <div id="eventsBox" class="events_list"></div>
                     
                 </div>
@@ -103,11 +143,11 @@
 
             <div class="page_info">
                 <p>© 2024 Meetup</p>
-                <p>Terms of Service</p>
-                <p>Privacy Policy</p>
-                <p>Do Not Sell or Share My Personal Data</p>
-                <p>Cookie Policy</p>
-                <p>Help</p>
+                <p hidden>Terms of Service</p>
+                <p hidden>Privacy Policy</p>
+                <p hidden>Do Not Sell or Share My Personal Data</p>
+                <p hidden>Cookie Policy</p>
+                <p hidden>Help</p>
             </div>
         </footer>
     </div>  

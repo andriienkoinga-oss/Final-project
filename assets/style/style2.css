@@ -31,17 +31,34 @@
     margin-top: 12px;
     gap: 17.44px;
 }
-
-.filter button{
-    max-width: 117.56px;
-    width: 100%;
-    min-height: 46px;
-    height: 100%;
+.filter-select{
+    position: relative;
+}
+.filter-select select{
+padding-left: 16px;
+    height: 46px;
+    width: 130px;
     border: 0;
     border-radius: 40px;
     background-color: rgba(246, 247, 248, 1);
+    cursor: pointer;
+        appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
 }
+.filter-select img{
+    width: 11.37px;
+    height: 5px;
+    position: absolute;
+    top: 22px;
+    right: 14px;
+}
+option{
+    background-color: rgba(246, 247, 248, 1);
+    color: rgba(0, 121, 138, 1);
 
+}
 .events_list{
     min-height: 1050px;
     height: 100%;

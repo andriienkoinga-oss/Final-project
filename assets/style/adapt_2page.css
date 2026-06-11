@@ -1,0 +1,152 @@
+@media(max-width: 393px) {
+    .page2{
+        display: flex;
+        flex-direction: column;
+    }
+.container{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+        height: 38px;
+    }
+    .logo{
+        width: 94.34px;
+        height: 34px;
+        margin-top: 4px;
+        margin-left: 24px;
+                position: relative;
+        z-index: 100;
+    }
+    .inputs{
+        position: absolute;
+        left: 20px;
+        top: 53px
+        
+    }
+    .search{
+        width: 342px;
+        height: 42px;
+    }
+    .search_button{
+        width: 42px;
+        height: 42px;
+    }
+    .vanue{
+        display: none;
+    }
+    .user-setting{
+        position: absolute;
+        top: 0;
+        right: 7px;
+        gap: 19px;
+    }
+    .language{
+        font-size: 12px;
+        margin-top: 12.83px;
+    }
+    .log-in{
+        font-size: 12px;
+        white-space: nowrap;
+        margin-top: 12.83px;
+    }
+    .sign-up{
+        font-size: 12px;
+        width: 71px;
+        height: 30.76px;
+        margin-top: 10px;
+    } 
+    .events_2page{
+        max-width: 470px;
+        width: 100%;
+        margin-left: 12px;
+        padding-top: 18px;
+    }
+    .events_2page h3{
+        font-size: 25px;
+        font-weight: 600;
+
+    }
+    .filter{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 12px;
+        gap: 17.44px;
+        margin-left: 40px;
+    }
+    .map{
+        display: none;
+    }
+    .attendees{
+        display: none;
+    }
+    .category{
+    font-size: 8.58px;
+    font-weight: 400;
+}
+.box_text h5{
+    font-size: 9.81px;
+    flex-wrap: wrap;
+    width: 200px;
+}
+.box_text h6{
+    font-size: 8.58px;
+}
+    .footer_2page{
+        width: 100%;
+        min-height: 393px;
+        margin-top: 120px;
+    }
+    .footer_2page .get_started{
+        display: flex;
+        width: 366px;
+        height: 69px;
+        margin-top: 34px;
+        margin-left: 18px;
+        gap: 2;
+        border-bottom: 1px solid rgba(112, 112, 112, 1)
+    }
+    .get_started h4{
+        font-size: 14px;
+        width: 247px;
+        padding-top: 25px;
+    }   
+    .get_started button{
+        margin-top: 2px;
+        padding-left: 2px;
+    }
+    .page_links{
+        margin-top: 34px;
+        margin-left: 14px;
+    }
+    .page_link{
+        max-width: 377px;
+        width: 100%;
+        min-height: 224px;
+        height: auto;
+    }
+        .page_link h4{
+        font-size: 14px;
+    }
+    .page_link p{
+        font-size: 12px;
+    }
+    .follow{
+        max-width: 336px;
+        width: 100%;
+        margin: 16px 18px;
+        flex-direction: column ;
+    }
+    .store{
+        display: none;
+    }
+    .icons img{
+        max-width: 25px;
+        width: 100%;
+        min-height: 25px;
+        height: auto;
+    }
+    .page_info{
+        margin-left: 18px;
+    }
+}
