@@ -6,9 +6,9 @@ const eventsStore = [
     image:
       'https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=1037&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D%201037w ',
     type: 'offline',
-    attendees: 99,
+    attendees: '99 attendees',
     category: 'Hobbies and Passions',
-    distance: "5 km",
+    distance: " 5 km",
   },
   {
     title:
@@ -18,9 +18,9 @@ const eventsStore = [
     image:
       'https://images.unsplash.com/photo-1696258686454-60082b2c33e2?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D ',
     type: 'offline',
-    attendees: 43,
+    attendees: '43 attendees',
     category: 'Technology',
-    distance: 25,
+    distance: '25 km',
   },
   {
     title: 'Book 40+ Appointments Per Month Using AI and Automation',
@@ -30,7 +30,7 @@ const eventsStore = [
       'https://images.unsplash.com/photo-1674027444485-cec3da58eef4?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     type: 'online',
     category: 'Technology',
-    distance: 10,
+    distance: '10 km',
   },
   {
     title: 'Dump writing group weekly meetup',
@@ -39,9 +39,9 @@ const eventsStore = [
     image:
       'https://plus.unsplash.com/premium_photo-1678453146992-b80d66df9152?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     type: 'online',
-    attendees: 77,
+    attendees: '77 attendees',
     category: 'Business',
-    distance: 100,
+    distance: '100 km',
   },
   {
     title: 'Over 40s, 50s, & 60s Senior Singles Chat, Meet & Dating Community',
@@ -50,9 +50,9 @@ const eventsStore = [
     image:
       'https://plus.unsplash.com/premium_photo-1706005542509-a460d6efecb0?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     type: 'online',
-    attendees: 140,
+    attendees: '140 attendees',
     category: 'Social Activities',
-    distance: 74,
+    distance: '74 km',
   },
   {
     title: 'All Nations - Manhattan Missions Church Bible Study',
@@ -62,7 +62,7 @@ const eventsStore = [
       'https://plus.unsplash.com/premium_photo-1679488248784-65a638a3d3fc?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     type: 'offline',
     category: 'Health and Wellbeing',
-    distance: 15,
+    distance: '15 km',
   },
 ]
 
@@ -71,7 +71,28 @@ logo.addEventListener('click', () => {
     window.location.href = './index.html';
 });
 
-const joinBtn = document.querySelector('#btnJoin')
-joinBtn.addEventListener('click', () => {
-    window.location.href = './index2.html';
-});
+
+const eventsBox = document.querySelector('#eventsBox')
+
+function renderEvents(){
+  eventsBox.innerHTML = ''
+
+  eventsStore.forEach((event) => {
+    eventsBox.insertAdjacentHTML('beforeend', 
+      `<div class="event_box">
+          <img src="${event.image}" alt="">
+          <div class="box_text">
+              <h6>${event.date}</h6>
+              <h5>${event.title}</h5>
+              <p class="category">${event.category} (${event.distance})</p>
+              ${event.attendees ? `<p class="attendees">${event.attendees}</p>` : ''}
+          </div>
+      </div>
+      `
+    )
+  })
+}
+renderEvents()
+console.log(eventsBox)
+console.log(eventsStore)
+

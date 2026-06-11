@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/style2.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
@@ -26,8 +27,27 @@
             </div>
         </nav> 
         <main class="content">
+            <div class="page2">
+                <div class="events_2page">
+                    <h3>Events near New York, NY</h3>
+                    <h5 class="p_cont_btm">Events</h5>
+                    <div class="filter">
+                        <button>Any type <img src="./img/v.png" alt=""></button>
+                        <button>Any distance <img src="./img/v.png" alt=""></button>
+                        <button>Any category <img src="./img/v.png" alt=""></button>
+                        <button>Any date <img src="./img/v.png" alt=""></button>
+                    </div>
+                    <div id="eventsBox" class="events_list"></div>
+                    
+                </div>
+                <div class="map">
+                    <h6>Find events near</h6>
+                    <h5>New York, NY</h5>
+                    <div class="img_map"><img class="map_picture" src="./img/map-thumbnail.png.png" alt=""><button>Browse in map <img class="img_on_button" src="./img/expandMapIcon.svg.png" alt=""></button></div>
+                </div>
+            </div>
         </main>
-        <footer>
+        <footer class="footer_2page">
             <div class="get_started">
                 <h4>Create your own Meetup group.</h4>
                 <button>Get Started</button>
@@ -55,7 +75,7 @@
                 <div class="page_link">
                     <h4>Meetup</h4>
                     <p>About</p>
-                    <p>Blog/p>
+                    <p>Blog</p>
                     <p>Meetup Pro</p>
                     <p>Careers</p>
                     <p>Apps</p>
@@ -89,6 +109,7 @@
                 <p>Help</p>
             </div>
         </footer>
-    </div>    
+    </div>  
+    <script src="./js/index.js"></script>  
 </body>
 </html>
