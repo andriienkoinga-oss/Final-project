@@ -70,8 +70,7 @@ option{
 .event_box{
     max-width: 604px;
     width: 100%;
-    min-height: 161px;
-    height: 100%;
+    height: 161px;
     display: flex;
     border-top: 1px solid rgba(217, 217, 217, 1);
 }
@@ -102,6 +101,7 @@ width: 159px;
     padding-top: 4px;
     max-width: 432.89px;
     width: 100%;
+    position: relative;
 }
 
 .category{
@@ -114,9 +114,11 @@ width: 159px;
     font-size: 14px;
     font-weight: 500;
     color: rgba(112, 112, 112, 1);
-    position: absolute;
-    bottom: 13px;
+
+
+    padding-top: 4px;
 }
+
 
 .map{
     margin-left: 267px;
