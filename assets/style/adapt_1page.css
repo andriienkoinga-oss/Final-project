@@ -221,7 +221,8 @@
         left: 100px;
         width: 192px;
         height: 40px;
-
+        position: relative;
+        z-index: 100;
     }
     .join_info h6{
         font-size: 20px;
